@@ -1,0 +1,15 @@
+Flow control is changing the order and way a programme reads through your code. 
+Based on how the expressions evaluate, the pro-gram can decide to skip instructions, repeat them, or choose one of several instructions to run.
+
+Flow control statements often start with a part called the condition, and all are followed by a block of code called the clause.
+
+Basic flow control statements are: 
+
+# Statement          Function                                                 Example
+if                   if a statements condition is true, execute the code      if name == alice / print("hello Alice")
+elif                 "else if" provides more if conditions                    elif name == john / print("hello John")
+else                 breaks the loop if no conditions are met                 else: / print("sorry I don't know you")
+while                continues to execute code if condition is True           while name == alice / print("hello Alice")
+break                exits a while loop                      
+continue             goes back to the start of the loop 
+for / range()        loops through code a specific number of times            for i in range(5): / print('Jimmy Five Times (' + str(i) + ')')

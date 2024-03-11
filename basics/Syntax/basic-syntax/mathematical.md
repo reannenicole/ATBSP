@@ -1,4 +1,4 @@
-# Operator  Operation                            Example          Evaluates to...
+# Operator  Operation                          Example          Evaluates to...
 **        Exponent                             2 ** 3           8
 %         Modulus/remainder                    22 % 8           6
 //        Integer division/floored quotient    22 // 8          2
@@ -8,3 +8,4 @@
 +         Addition                             2 + 2            4
 
 Python follows the standard PEDMAS order of operations. 
+
